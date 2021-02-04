@@ -437,11 +437,11 @@ Configuration1_Item3=OpenExported=True|AddToProject=True|ReportBOMViolationsInMe
 Configuration1_Name4=GroupOrder
 Configuration1_Item4=Description=True
 Configuration1_Name5=SortOrder
-Configuration1_Item5=Description=Down
+Configuration1_Item5=Description=Up
 Configuration1_Name6=VisibleOrder
-Configuration1_Item6=Description=606|Quantity=120
+Configuration1_Item6=Description=606|Designator=100|Quantity=120
 Configuration1_Name7=VisibleOrder_Flat
-Configuration1_Item7=Description=606|Quantity=120
+Configuration1_Item7=Description=606|Designator=100|Quantity=120
 OutputType2=ComponentCrossReference
 OutputName2=Component Cross Reference Report
 OutputDocumentPath2=
