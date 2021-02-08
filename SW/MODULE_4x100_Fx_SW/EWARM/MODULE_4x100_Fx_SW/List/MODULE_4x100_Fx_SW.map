@@ -1,0 +1,308 @@
+###############################################################################
+#
+# IAR ELF Linker V8.50.9.278/W32 for ARM                  08/Feb/2021  14:42:17
+# Copyright 2007-2020 IAR Systems AB.
+#
+#    Output file  =
+#        D:\PROJECTS\PLC\IRON_CASE_SWITCH\SW\MODULE_4x100_Fx_SW\EWARM\MODULE_4x100_Fx_SW\Exe\MODULE_4x100_Fx_SW.out
+#    Map file     =
+#        D:\PROJECTS\PLC\IRON_CASE_SWITCH\SW\MODULE_4x100_Fx_SW\EWARM\MODULE_4x100_Fx_SW\List\MODULE_4x100_Fx_SW.map
+#    Command line =
+#        -f C:\Users\sna\AppData\Local\Temp\EW5C2F.tmp
+#        (D:\PROJECTS\PLC\IRON_CASE_SWITCH\SW\MODULE_4x100_Fx_SW\EWARM\MODULE_4x100_Fx_SW\Obj\gpio.o
+#        D:\PROJECTS\PLC\IRON_CASE_SWITCH\SW\MODULE_4x100_Fx_SW\EWARM\MODULE_4x100_Fx_SW\Obj\main.o
+#        D:\PROJECTS\PLC\IRON_CASE_SWITCH\SW\MODULE_4x100_Fx_SW\EWARM\MODULE_4x100_Fx_SW\Obj\soft_spi.o
+#        D:\PROJECTS\PLC\IRON_CASE_SWITCH\SW\MODULE_4x100_Fx_SW\EWARM\MODULE_4x100_Fx_SW\Obj\startup_stm32f070xb.o
+#        D:\PROJECTS\PLC\IRON_CASE_SWITCH\SW\MODULE_4x100_Fx_SW\EWARM\MODULE_4x100_Fx_SW\Obj\stm32f0xx_hal.o
+#        D:\PROJECTS\PLC\IRON_CASE_SWITCH\SW\MODULE_4x100_Fx_SW\EWARM\MODULE_4x100_Fx_SW\Obj\stm32f0xx_hal_cortex.o
+#        D:\PROJECTS\PLC\IRON_CASE_SWITCH\SW\MODULE_4x100_Fx_SW\EWARM\MODULE_4x100_Fx_SW\Obj\stm32f0xx_hal_dma.o
+#        D:\PROJECTS\PLC\IRON_CASE_SWITCH\SW\MODULE_4x100_Fx_SW\EWARM\MODULE_4x100_Fx_SW\Obj\stm32f0xx_hal_exti.o
+#        D:\PROJECTS\PLC\IRON_CASE_SWITCH\SW\MODULE_4x100_Fx_SW\EWARM\MODULE_4x100_Fx_SW\Obj\stm32f0xx_hal_flash.o
+#        D:\PROJECTS\PLC\IRON_CASE_SWITCH\SW\MODULE_4x100_Fx_SW\EWARM\MODULE_4x100_Fx_SW\Obj\stm32f0xx_hal_flash_ex.o
+#        D:\PROJECTS\PLC\IRON_CASE_SWITCH\SW\MODULE_4x100_Fx_SW\EWARM\MODULE_4x100_Fx_SW\Obj\stm32f0xx_hal_gpio.o
+#        D:\PROJECTS\PLC\IRON_CASE_SWITCH\SW\MODULE_4x100_Fx_SW\EWARM\MODULE_4x100_Fx_SW\Obj\stm32f0xx_hal_i2c.o
+#        D:\PROJECTS\PLC\IRON_CASE_SWITCH\SW\MODULE_4x100_Fx_SW\EWARM\MODULE_4x100_Fx_SW\Obj\stm32f0xx_hal_i2c_ex.o
+#        D:\PROJECTS\PLC\IRON_CASE_SWITCH\SW\MODULE_4x100_Fx_SW\EWARM\MODULE_4x100_Fx_SW\Obj\stm32f0xx_hal_msp.o
+#        D:\PROJECTS\PLC\IRON_CASE_SWITCH\SW\MODULE_4x100_Fx_SW\EWARM\MODULE_4x100_Fx_SW\Obj\stm32f0xx_hal_pwr.o
+#        D:\PROJECTS\PLC\IRON_CASE_SWITCH\SW\MODULE_4x100_Fx_SW\EWARM\MODULE_4x100_Fx_SW\Obj\stm32f0xx_hal_pwr_ex.o
+#        D:\PROJECTS\PLC\IRON_CASE_SWITCH\SW\MODULE_4x100_Fx_SW\EWARM\MODULE_4x100_Fx_SW\Obj\stm32f0xx_hal_rcc.o
+#        D:\PROJECTS\PLC\IRON_CASE_SWITCH\SW\MODULE_4x100_Fx_SW\EWARM\MODULE_4x100_Fx_SW\Obj\stm32f0xx_hal_rcc_ex.o
+#        D:\PROJECTS\PLC\IRON_CASE_SWITCH\SW\MODULE_4x100_Fx_SW\EWARM\MODULE_4x100_Fx_SW\Obj\stm32f0xx_hal_tim.o
+#        D:\PROJECTS\PLC\IRON_CASE_SWITCH\SW\MODULE_4x100_Fx_SW\EWARM\MODULE_4x100_Fx_SW\Obj\stm32f0xx_hal_tim_ex.o
+#        D:\PROJECTS\PLC\IRON_CASE_SWITCH\SW\MODULE_4x100_Fx_SW\EWARM\MODULE_4x100_Fx_SW\Obj\stm32f0xx_it.o
+#        D:\PROJECTS\PLC\IRON_CASE_SWITCH\SW\MODULE_4x100_Fx_SW\EWARM\MODULE_4x100_Fx_SW\Obj\system_stm32f0xx.o
+#        --no_out_extension -o
+#        D:\PROJECTS\PLC\IRON_CASE_SWITCH\SW\MODULE_4x100_Fx_SW\EWARM\MODULE_4x100_Fx_SW\Exe\MODULE_4x100_Fx_SW.out
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map
+#        D:\PROJECTS\PLC\IRON_CASE_SWITCH\SW\MODULE_4x100_Fx_SW\EWARM\MODULE_4x100_Fx_SW\List\MODULE_4x100_Fx_SW.map
+#        --config
+#        D:\PROJECTS\PLC\IRON_CASE_SWITCH\SW\MODULE_4x100_Fx_SW\EWARM/stm32f070xb_flash.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x801'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'3fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address   Size  Object
+  -------            ----         -------   ----  ------
+"A0":                                       0xc0
+  .intvec            ro code   0x800'0000   0xc0  startup_stm32f070xb.o [1]
+                             - 0x800'00c0   0xc0
+
+"P1":                                      0xb4c
+  .text              ro code   0x800'00c0  0x52c  stm32f0xx_hal_rcc.o [1]
+  .text              ro code   0x800'05ec    0xc  stm32f0xx_hal.o [1]
+  .text              ro code   0x800'05f8   0x44  stm32f0xx_hal.o [1]
+  .text              ro code   0x800'063c   0x36  I32DivMod.o [3]
+  .text              ro code   0x800'0672    0x2  startup_stm32f070xb.o [1]
+  .text              ro code   0x800'0674   0x78  stm32f0xx_hal_cortex.o [1]
+  .text              ro code   0x800'06ec    0x2  IntDivZer.o [3]
+  .text              ro code   0x800'06ee    0x2  startup_stm32f070xb.o [1]
+  .text              ro code   0x800'06f0  0x198  stm32f0xx_hal_gpio.o [1]
+  .text              ro code   0x800'0888   0xd4  gpio.o [1]
+  .text              ro code   0x800'095c   0x14  memset.o [3]
+  .text              ro code   0x800'0970   0x4e  ABImemset.o [3]
+  .text              ro code   0x800'09be    0x2  startup_stm32f070xb.o [1]
+  .text              ro code   0x800'09c0   0x7e  main.o [1]
+  .text              ro code   0x800'0a3e    0x2  startup_stm32f070xb.o [1]
+  .text              ro code   0x800'0a40   0x20  stm32f0xx_hal.o [1]
+  .text              ro code   0x800'0a60   0x28  stm32f0xx_hal.o [1]
+  .text              ro code   0x800'0a88   0x30  stm32f0xx_hal_msp.o [1]
+  .text              ro code   0x800'0ab8   0x30  copy_init3.o [3]
+  .text              ro code   0x800'0ae8   0x28  data_init.o [3]
+  .iar.init_table    const     0x800'0b10   0x14  - Linker created -
+  .text              ro code   0x800'0b24   0x1e  cmain.o [3]
+  .text              ro code   0x800'0b42    0x4  low_level_init.o [2]
+  .text              ro code   0x800'0b46    0x8  exit.o [2]
+  .text              ro code   0x800'0b4e    0x2  startup_stm32f070xb.o [1]
+  .text              ro code   0x800'0b50    0xa  cexit.o [3]
+  .text              ro code   0x800'0b5a    0x2  startup_stm32f070xb.o [1]
+  .text              ro code   0x800'0b5c   0x14  exit.o [4]
+  .text              ro code   0x800'0b70   0x1c  cstartup_M.o [3]
+  .text              ro code   0x800'0b8c   0x14  system_stm32f0xx.o [1]
+  .text              ro code   0x800'0ba0   0x10  startup_stm32f070xb.o [1]
+  .text              ro code   0x800'0bb0   0x10  stm32f0xx_hal.o [1]
+  .text              ro code   0x800'0bc0   0x10  stm32f0xx_it.o [1]
+  Initializer bytes  const     0x800'0bd0   0x10  <for P2-1>
+  .text              ro code   0x800'0be0    0x2  startup_stm32f070xb.o [1]
+  .text              ro code   0x800'0be2    0x2  startup_stm32f070xb.o [1]
+  .text              ro code   0x800'0be4    0x2  startup_stm32f070xb.o [1]
+  .text              ro code   0x800'0be6    0x2  startup_stm32f070xb.o [1]
+  .text              ro code   0x800'0be8    0x2  startup_stm32f070xb.o [1]
+  .text              ro code   0x800'0bea    0x2  startup_stm32f070xb.o [1]
+  .text              ro code   0x800'0bec    0x2  startup_stm32f070xb.o [1]
+  .text              ro code   0x800'0bee    0x2  startup_stm32f070xb.o [1]
+  .text              ro code   0x800'0bf0    0x2  startup_stm32f070xb.o [1]
+  .text              ro code   0x800'0bf2    0x2  startup_stm32f070xb.o [1]
+  .text              ro code   0x800'0bf4    0x2  startup_stm32f070xb.o [1]
+  .text              ro code   0x800'0bf6    0x2  startup_stm32f070xb.o [1]
+  .text              ro code   0x800'0bf8    0x2  startup_stm32f070xb.o [1]
+  .text              ro code   0x800'0bfa    0x2  startup_stm32f070xb.o [1]
+  .text              ro code   0x800'0bfc    0x2  startup_stm32f070xb.o [1]
+  .text              ro code   0x800'0bfe    0x2  startup_stm32f070xb.o [1]
+  .text              ro code   0x800'0c00    0x2  startup_stm32f070xb.o [1]
+  .text              ro code   0x800'0c02    0x2  startup_stm32f070xb.o [1]
+  .text              ro code   0x800'0c04    0x2  startup_stm32f070xb.o [1]
+  .text              ro code   0x800'0c06    0x2  startup_stm32f070xb.o [1]
+  .text              ro code   0x800'0c08    0x2  startup_stm32f070xb.o [1]
+  .text              ro code   0x800'0c0a    0x2  startup_stm32f070xb.o [1]
+  .rodata            const     0x800'0c0c    0x0  copy_init3.o [3]
+                             - 0x800'0c0c  0xb4c
+
+"P2", part 1 of 2:                          0x10
+  P2-1                        0x2000'0000   0x10  <Init block>
+    .data            inited   0x2000'0000    0xc  stm32f0xx_hal.o [1]
+    .data            inited   0x2000'000c    0x4  system_stm32f0xx.o [1]
+                            - 0x2000'0010   0x10
+
+"P2", part 2 of 2:                         0x400
+  CSTACK                      0x2000'0010  0x400  <Block>
+    CSTACK           uninit   0x2000'0010  0x400  <Block tail>
+                            - 0x2000'0410  0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'0c0c   0x801'ffff  0x1'f3f4
+  0x2000'0410  0x2000'3fff    0x3bf0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Copy (__iar_copy_init3)
+    1 source range, total size 0x10:
+           0x800'0bd0  0x10
+    1 destination range, total size 0x10:
+          0x2000'0000  0x10
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+D:\PROJECTS\PLC\IRON_CASE_SWITCH\SW\MODULE_4x100_Fx_SW\EWARM\MODULE_4x100_Fx_SW\Obj: [1]
+    gpio.o                      212
+    main.o                      126
+    startup_stm32f070xb.o       264
+    stm32f0xx_hal.o             168       12       12
+    stm32f0xx_hal_cortex.o      120
+    stm32f0xx_hal_gpio.o        408
+    stm32f0xx_hal_msp.o          48
+    stm32f0xx_hal_rcc.o       1'324
+    stm32f0xx_it.o               16
+    system_stm32f0xx.o           20        4        4
+    -------------------------------------------------
+    Total:                    2'706       16       16
+
+dl6M_tln.a: [2]
+    exit.o                        8
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                       12
+
+rt6M_tl.a: [3]
+    ABImemset.o                  78
+    I32DivMod.o                  54
+    IntDivZer.o                   2
+    cexit.o                      10
+    cmain.o                      30
+    copy_init3.o                 48
+    cstartup_M.o                 28
+    data_init.o                  40
+    memset.o                     20
+    -------------------------------------------------
+    Total:                      310
+
+shb_l.a: [4]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Linker created                        20    1'024
+-----------------------------------------------------
+    Grand Total:              3'048       36    1'040
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'0b10          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'0b24          --   Gb  - Linker created -
+?main                    0x800'0b25         Code  Gb  cmain.o [3]
+AHBPrescTable            0x800'0b90   0x10  Data  Gb  system_stm32f0xx.o [1]
+CSTACK$$Base            0x2000'0010          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'0410          --   Gb  - Linker created -
+HAL_Delay                0x800'0a61   0x28  Code  Wk  stm32f0xx_hal.o [1]
+HAL_GPIO_Init            0x800'06f1  0x174  Code  Gb  stm32f0xx_hal_gpio.o [1]
+HAL_GPIO_WritePin        0x800'0865    0xc  Code  Gb  stm32f0xx_hal_gpio.o [1]
+HAL_GetTick              0x800'05ed    0xc  Code  Wk  stm32f0xx_hal.o [1]
+HAL_IncTick              0x800'0bb1   0x10  Code  Wk  stm32f0xx_hal.o [1]
+HAL_Init                 0x800'0a41   0x1a  Code  Gb  stm32f0xx_hal.o [1]
+HAL_InitTick             0x800'05f9   0x44  Code  Wk  stm32f0xx_hal.o [1]
+HAL_MspInit              0x800'0a89   0x30  Code  Gb  stm32f0xx_hal_msp.o [1]
+HAL_NVIC_SetPriority     0x800'06af    0x8  Code  Gb  stm32f0xx_hal_cortex.o [1]
+HAL_RCC_ClockConfig      0x800'0459   0xfc  Code  Gb  stm32f0xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                         0x800'055d   0x48  Code  Gb  stm32f0xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq::aPLLMULFactorTable
+                         0x800'05cc   0x10  Data  Lc  stm32f0xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq::aPredivFactorTable
+                         0x800'05dc   0x10  Data  Lc  stm32f0xx_hal_rcc.o [1]
+HAL_RCC_OscConfig        0x800'00c1  0x38a  Code  Gb  stm32f0xx_hal_rcc.o [1]
+HAL_SYSTICK_Config       0x800'06b7   0x28  Code  Gb  stm32f0xx_hal_cortex.o [1]
+HardFault_Handler        0x800'0bc3    0x2  Code  Gb  stm32f0xx_it.o [1]
+MX_GPIO_Init             0x800'0889   0xd4  Code  Gb  gpio.o [1]
+NMI_Handler              0x800'0bc1    0x2  Code  Gb  stm32f0xx_it.o [1]
+PendSV_Handler           0x800'0bc7    0x2  Code  Gb  stm32f0xx_it.o [1]
+Region$$Table$$Base      0x800'0b10          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'0b24          --   Gb  - Linker created -
+SVC_Handler              0x800'0bc5    0x2  Code  Gb  stm32f0xx_it.o [1]
+SysTick_Handler          0x800'0bc9    0x8  Code  Gb  stm32f0xx_it.o [1]
+SystemClock_Config       0x800'09e5   0x5a  Code  Gb  main.o [1]
+SystemCoreClock         0x2000'000c    0x4  Data  Gb  system_stm32f0xx.o [1]
+SystemInit               0x800'0b8d    0x2  Code  Gb  system_stm32f0xx.o [1]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x2000'3fff         Data  Gb  <internal module>
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x2000'0000         Data  Gb  <internal module>
+__NVIC_SetPriority       0x800'0675   0x3a  Code  Lc  stm32f0xx_hal_cortex.o [1]
+__aeabi_idiv0            0x800'06ed         Code  Gb  IntDivZer.o [3]
+__aeabi_memset           0x800'0971         Code  Gb  ABImemset.o [3]
+__cmain                  0x800'0b25         Code  Gb  cmain.o [3]
+__exit                   0x800'0b5d   0x14  Code  Gb  exit.o [4]
+__iar_Memset4_word       0x800'0991         Code  Gb  ABImemset.o [3]
+__iar_Memset_word        0x800'097d         Code  Gb  ABImemset.o [3]
+__iar_copy_init3         0x800'0ab9   0x30  Code  Gb  copy_init3.o [3]
+__iar_data_init3         0x800'0ae9   0x28  Code  Gb  data_init.o [3]
+__iar_program_start      0x800'0b71         Code  Gb  cstartup_M.o [3]
+__iar_small_uidiv        0x800'063d         Code  Gb  I32DivMod.o [3]
+__iar_small_uidivmod     0x800'063d         Code  Gb  I32DivMod.o [3]
+__low_level_init         0x800'0b43    0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000         Data  Gb  startup_stm32f070xb.o [1]
+_call_main               0x800'0b31         Code  Gb  cmain.o [3]
+_exit                    0x800'0b51         Code  Gb  cexit.o [3]
+_main                    0x800'0b3b         Code  Gb  cmain.o [3]
+exit                     0x800'0b47    0x8  Code  Gb  exit.o [2]
+main                     0x800'09c1   0x20  Code  Gb  main.o [1]
+memset                   0x800'095d   0x14  Code  Gb  memset.o [3]
+uwTick                  0x2000'0004    0x4  Data  Gb  stm32f0xx_hal.o [1]
+uwTickFreq              0x2000'0000    0x1  Data  Gb  stm32f0xx_hal.o [1]
+uwTickPrio              0x2000'0008    0x4  Data  Gb  stm32f0xx_hal.o [1]
+
+
+[1] = D:\PROJECTS\PLC\IRON_CASE_SWITCH\SW\MODULE_4x100_Fx_SW\EWARM\MODULE_4x100_Fx_SW\Obj
+[2] = dl6M_tln.a
+[3] = rt6M_tl.a
+[4] = shb_l.a
+
+  3'048 bytes of readonly  code memory
+     36 bytes of readonly  data memory
+  1'040 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
