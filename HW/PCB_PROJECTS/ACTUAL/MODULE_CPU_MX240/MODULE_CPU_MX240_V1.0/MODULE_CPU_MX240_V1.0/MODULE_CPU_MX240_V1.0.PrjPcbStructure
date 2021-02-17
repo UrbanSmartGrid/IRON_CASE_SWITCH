@@ -1,1 +1,8 @@
-Record=TopLevelDocument|FileName=CONSOLE.SchDoc
+Record=TopLevelDocument|FileName=CONSOLE.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=CONSOLE.SchDoc|FileName=DDR3.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=CONSOLE.SchDoc|FileName=ETHERNET.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=CONSOLE.SchDoc|FileName=ETHERNET_CONTROL.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=CONSOLE.SchDoc|FileName=FLASH.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=CONSOLE.SchDoc|FileName=MPU.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=CONSOLE.SchDoc|FileName=MPU_POWER.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=CONSOLE.SchDoc|FileName=POWER.SchDoc|SheetNumber= 

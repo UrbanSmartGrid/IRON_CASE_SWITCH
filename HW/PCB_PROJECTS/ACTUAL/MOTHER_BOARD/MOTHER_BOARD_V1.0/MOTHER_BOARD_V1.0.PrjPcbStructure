@@ -1,1 +1,7 @@
-Record=TopLevelDocument|FileName=BMC.SchDoc
+Record=TopLevelDocument|FileName=BMC.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=BMC.SchDoc|FileName=CONNECTORS.SchDoc|SheetNumber=15
+Record=NoMainPathDocument|SourceDocument=BMC.SchDoc|FileName=INPUT_FROM_CPU.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=BMC.SchDoc|FileName=POWER_DISCRETE.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=BMC.SchDoc|FileName=POWER_INPUT.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=BMC.SchDoc|FileName=SWITCH.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=BMC.SchDoc|FileName=SWITCH_P1_P8.SchDoc|SheetNumber=14
