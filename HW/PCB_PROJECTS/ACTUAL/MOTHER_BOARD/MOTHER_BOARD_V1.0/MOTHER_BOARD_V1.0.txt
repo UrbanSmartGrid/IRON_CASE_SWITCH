@@ -1,0 +1,10 @@
+Board Information Report
+Filename     : D:\PROJECTS\PLC\IRON_CASE_SWITCH\HW\PCB_PROJECTS\ACTUAL\MOTHER_BOARD\MOTHER_BOARD_V1.0\MOTHER_BOARD_V1.0.PcbDoc
+Date         : 21.02.2021
+Time         : 14:40:39
+Time Elapsed : 00:00:00
+
+General
+    Board Size, 320mmx91mm
+    Components on board, 0
+count : 2
