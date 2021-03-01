@@ -1,0 +1,10 @@
+Board Information Report
+Filename     : D:\PROJECTS\PLC\IRON_CASE_SWITCH\HW\PCB_PROJECTS\ACTUAL\MODULE_CPU_MX240\MODULE_CPU_MX240_V1.0\MODULE_CPU_MX240_V1.0\MODULE_CPU_MX240_V1.0.PcbDoc
+Date         : 28.02.2021
+Time         : 12:54:14
+Time Elapsed : 00:00:00
+
+General
+    Board Size, 87.3mmx95.5mm
+    Components on board, 377
+count : 2
